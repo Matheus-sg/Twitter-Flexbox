@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="main-header">
+    <div class="content">
+    <nav>
+      <ul>
+        <li><img src="/imgs/home.svg" alt="Home"> Home</li>
+        <li><img src="/imgs/notification.svg" alt="Notification"> Notifications</li>
+        <li><img src="/imgs/messenge.svg" alt="Messages"> Messages</li>
+      </ul>
+    </nav>
+
+    <img src="/imgs/logo.svg" class="logotwitter" alt="logo twitter">
+    <div class="side">
+      <input type="text" placeholder="Search on Twitter">
+      <img src="/imgs/me.png" alt="me">
+      <button>Tweet</button>
+    </div>
+  </div>
+  </header>
+
+  <div class="banner"> 
+    <h1>{capa}</h1>
+  </div>
+
+  <div class="bar">
+    <div class="content">
+      <ul>
+        <li class="active">
+          <spawn>Tweets</spawn>
+          <strong>1234</strong>
+        </li>
+        <li>
+          <spawn>Followings</spawn>
+          <strong>300</strong>
+        </li>
+        <li>
+          <spawn>Followers</spawn>
+          <strong>900</strong>
+        </li>
+        <li>
+          <spawn>Favorites</spawn>
+          <strong>98</strong>
+        </li>
+      </ul>
+      <div class="actions">
+        <button>Follow</button>
+        <img src="/imgs/more.svg" alt="more">
+      </div>
+    </div>
+  </div>
+  
+  <div class="wrapper-content content">
+    <aside class="profile">
+      <img class="me" src="./imgs/me.png" alt="Eu">
+      <h1>Matheus Gonçalves</h1>
+      <span>@matheus</span>
+      <p>Junior fullstack developer. Node.js, React and React Native</p>
+
+      <ul>
+        <li><img class="aside-icon" src="./imgs/locale.svg" alt="locale">Rio de Janeiro, Brazil.</li>
+        <li><img class="aside-icon" src="./imgs/link.svg" alt="link">https://github.com/Matheus-sg</li>
+        <li><img class="aside-icon" src="./imgs/clock.svg" alt="clock">Joined June 2007</li>
+        <li><img class="aside-icon" src="./imgs/baby.svg" alt="born">Born the 16h of August 1999</li>
+      </ul>
+
+      <div class="widget followers">
+        <strong> <img class="aside-icon" src="./imgs/profile.svg" alt=""> 73 followers that you know</strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="widget images">
+        <strong> <img class="aside-icon" src="./imgs/galeria.svg" alt=""> 266 photos and videos</strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="timeline">
+      <nav>
+        <a href="" class="active">Tweets</a>
+        <a href="">Tweets and replices</a>
+        <a href="">Medias</a>
+      </nav>
+
+      <ul class="tweets">
+        <li>
+          <img class="avatartweet" src="./imgs/me.png" alt="">
+          <div class="info">
+            <strong>Matheus Gonçalves <span>@matheus</span></strong>
+            <p>Twitter com flexbox!</p>
+            <div class="actions">
+              <a href=""> <img class="icontweet" src="./imgs/comment.svg" alt="">2</a>
+              <a href=""> <img class="icontweet" src="./imgs/retweet.svg" alt="">1</a>
+              <a href=""> <img class="icontweet" src="./imgs/love.svg" alt="">5</a>
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </section>
+
+    <aside class="widgets">
+      <div class="widget follow">
+        <div class="title">
+          <strong>Who to follow</strong>
+          <a href="">Refresh</a>
+          <a href="">View all</a>
+        </div>  
+
+        <ul>
+          <li>
+            <div class="profile">
+              <img src="imgs/me.png" alt="avatar">
+             <div class="info">
+               <strong> example <span>@example</span> </strong>
+               <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+
+          <li>
+            <div class="profile">
+              <img src="imgs/me.png" alt="avatar">
+             <div class="info">
+               <strong> example <span>@example</span> </strong>
+               <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+
+          <li>
+            <div class="profile">
+              <img src="imgs/me.png" alt="avatar">
+             <div class="info">
+               <strong> example <span>@example</span> </strong>
+               <button>Follow</button>
+              </div>
+            </div>
+            <a href="">x</a>
+          </li>
+        </ul>
+      </div>
+
+ 
+    </aside>
+  </div>
+</body>
+</html>
